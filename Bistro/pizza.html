@@ -4,10 +4,20 @@
   <meta charset="utf-8">
   <title>Blackstone Bistro | Pizza-on-Demand</title>
   <style>
-    Body {background-color: #faf2e4;
+    Body {  background: #faf2e4 url(images/blackgoose2.png) no-repeat center 100px fixed;
     margin: 0 10%;
 font-family: sand-serif;
 }
+
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  border: 2px solid #CD582D;
+  border-radius: 30px;
+  background: rgba(151, 215, 245, 0.54) url(images/gooseshadow.png) 90% bottom no-repeat}
+
+
 h1 {
     text-align: center;
     font-family: serif;
@@ -40,23 +50,55 @@ footer img {
   margin-left: .5em;
   margin-right: .5em;
  } 
+ ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color:rgba(151, 215, 245, 0.54);
+    border-radius: 30px
+}
+a {
+  text-decoration: none;
+}
+  a:link {
+	  color: #4B9DA9;
+}
+a:visited {
+	color: #937393;
+}
+a:focus, a:hover {
+	color: #24626b;
+	background-color: #ecbd91;
+}
+a:active {
+	color: rgb(26, 73, 85);
+	background-color: #faf2e4;
+}
+
+li {
+  margin:5%
+}
   </style>
 </head>
 
-<body>
 
+<header>
 <h1>Blackstone Bistro | Pizza-on-Demand</h1>
 <h3><nav>
         <ul>
             <li><a href=index.html>Home</a></li>
             <li>Menu</li>
             <li><a href=bgnews.html>News</a></li>
-            <li><a href=JensKitchen/jens_kitch.html>Our Chef</a></li>
+            <li><a href=jenskitchen/jens_kitch.html>Our Chef</a></li>
             <li><a href=contact.html>Contact</a></li>
             <li><a href=gallery/gallery_index.html>Gallery</a></li>
         </ul>
         </nav></h3>
+  </header>
 
+<body>
 <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
 
 <form action="http://www.blackgoosebistro.com/pizza.php" method="POST">

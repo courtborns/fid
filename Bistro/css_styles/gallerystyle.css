@@ -1,0 +1,67 @@
+  body {
+  background: #faf2e4 url(../images/blackgoose2.png) no-repeat center 100px fixed;
+  margin: 0 10%;
+  font-family: sans-serif;
+  text-align: center;
+  }
+
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  border: 2px solid #CD582D;
+  border-radius: 30px;
+  background: rgba(151, 215, 245, 0.54) url(../images/gooseshadow.png) 90% bottom no-repeat
+}
+
+  h1 {
+  text-align: center;
+  font-family: serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid #4B9DA9;
+  margin-top: 30px;
+  }
+
+  h2 {
+  color: #d1633c;
+  font-size: 20px;
+  }
+
+  h3 {
+    color: #6C93A6;
+  font-size: 20px;
+  text-align: left;
+  font-family: serif;
+  font-weight: normal;
+  }
+
+ul {
+	list-style-type: none;
+	margin-left: 150px;
+	padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color:rgba(151, 215, 245, 0.54);
+    border-radius: 30px;
+    text-align:center
+
+    }
+
+  a {
+  text-decoration: none;
+}
+  a:link {
+	  color: #4B9DA9;
+}
+a:visited {
+	color: #937393;
+}
+a:focus, a:hover {
+	color: #24626b;
+	background-color: #ecbd91;
+}
+a:active {
+	color: rgb(26, 73, 85);
+	background-color: #faf2e4;
+};

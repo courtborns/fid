@@ -1,0 +1,76 @@
+  body {
+  background: #faf2e4 url(../images/blackgoose2.png) no-repeat center 100px fixed;
+  margin: 0 10%;
+  font-family: Georgia, serif;
+  text-align: center;
+  }
+
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  border: 2px solid #CD582D;
+  border-radius: 30px;
+  background: rgba(151, 215, 245, 0.54) url(../images/gooseshadow.png) 90% bottom no-repeat}
+
+  h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid #4B9DA9;
+  margin-top: -8px;
+  }
+
+  h2 {
+  color: #d1633c;
+  font-size: 20px;
+  }
+
+  h3 {
+    color: #6C93A6;
+  font-size: 20px;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  }
+
+  footer {
+  border-top: 1px solid #57b1dc;
+  text-align: center;
+  padding-top: 1em;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-right: .5em;
+ } 
+
+ ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color:rgba(151, 215, 245, 0.54);
+    border-radius: 30px
+}
+a {
+  text-decoration: none;
+}
+  a:link {
+	  color: #4B9DA9;
+}
+a:visited {
+	color: #937393;
+}
+a:focus, a:hover {
+	color: #24626b;
+	background-color: #ecbd91;
+}
+a:active {
+	color: rgb(26, 73, 85);
+	background-color: #faf2e4;
+};

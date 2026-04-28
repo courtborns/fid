@@ -5,47 +5,79 @@
   <meta charset="utf-8">
   <title>Black Goose Bistro</title>
   <style>
-   body {
-  background-color: #faf2e4;
-  margin: 0 10%;
-  font-family: sans-serif;
+ body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  background: #faf2e4 url(images/blackgoose2.png) no-repeat center 100px fixed;
   text-align: center;
-  }
-
-  h1 {
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
   text-align: center;
-  font-family: serif;
-  font-weight: normal;
-  text-transform: uppercase;
-  border-bottom: 1px solid #4B9DA9;
-  margin-top: 30px;
-  }
+  border: 2px solid #CD582D;
+  border-radius: 30px;
+  background: rgba(151, 215, 245, 0.54) url(images/gooseshadow.png) 90% bottom no-repeat
+}
 
-  h2 {
-    color: #6C93A6;
-  font-size: 20px;
-  text-align: center;
-  font-family: serif;
-  font-weight: normal;
-  border-bottom: 1px solid #4B9DA9;
+a {
+  text-decoration: none;
+}
+  a:link {
+	  color: #4B9DA9;
+}
+a:visited {
+	color: #937393;
+}
+a:focus, a:hover {
+	color: #24626b;
+	background-color: #faf2e4;
+}
+a:active {
+	color: rgb(26, 73, 85);
+	background-color: #faf2e4;
+};
 
-  }
+h1 {
+  font: bold 1.5em Georgia, serif;
+  text-shadow: .1em .1em .2em gray;
+  color: #4B9DA9;
+}
+
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color:rgba(151, 215, 245, 0.54);
+    border-radius: 30px}
+
   </style>
 </head>
 
-<body>
+<header>
     <h1>Contact Us</h1>
-    <h2><nav>
+    <nav>
         <ul>
             <li><a href=index.html>Home</a></li>
-            <li>Menu</li>
+            <li><a href=menu.html>Menu</a></li>
             <li><a href=bgnews.html>News</a></li>
-            <li><a href=JensKitchen/jens_kitch.html>Our Chef</a></li>
+            <li><a href=jenskitchen/jens_kitch.html>Our Chef</a></li>
             <li><a href=gallery/gallery_index.html>Gallery</a></li>
 
         </ul>
-        </nav></h2>
-
+        </nav>
+        </header>
+<body>
     <p>380 Cindersap Forest Ave, Suite 1824 <br>Stardew Valley 32857</p>
     <p><strong>Phone:</strong><br>(386)666-9999</p>
     <p><strong>E-mail:</strong><br>blackgoose_help@blackgoose.com</p>

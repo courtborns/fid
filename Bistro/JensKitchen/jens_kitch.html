@@ -7,6 +7,7 @@
 body {
 	margin: 2em 5%;
 	font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #faf2e4
 }
 h1, h2 {	
 	color: #399;}
@@ -25,17 +26,38 @@ small {
   text-align: left;
   font-family: serif;
   font-weight: normal;
-  }
-</style>
+ }
 
+img {
+  display: block;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+  a:link {
+	  color: #4B9DA9;
+}
+a:visited {
+	color: #937393;
+}
+a:focus, a:hover {
+	color: #24626b;
+	background-color: #e288b2;
+}
+a:active {
+	color: rgb(26, 73, 85);
+	background-color: #fae4ee;
+};
+</style>
 </head>
 
 <body>
 <img src="images/jenskitchen.gif" alt="Jen's Kitchen banner" width="660" height="94">
 <h3><nav>
-        <ul>
+        <ul style="list-style-type: none; margin: 20px; padding: 0; display: grid; grid-template-columns: auto auto auto auto auto auto; background-color:rgba(151, 215, 245, 0.54); border-radius: 30px; text-align:center">
             <li><a href=../index.html>Home</a></li>
-            <li>Menu</li>
+            <li><a href=../menu.html>Menu</a></li>
             <li><a href=../bgnews.html>News</a></li>
             <li><a href=../contact.html>Contact</a></li>
 			<li><a href=../gallery/gallery_index.html>Gallery</a></li>
@@ -64,7 +86,7 @@ small {
   <li><a href="http://www.epicurious.com/"target="_blank">Epicurious </a></li>
 </ul>
 
-<p><a href=index.html>Back to the home page</a></p>
+<p><a href=../index.html>Back to the home page</a></p>
 
 <p><small>Copyright 2018, Jennifer Robbins</small></p>
 
