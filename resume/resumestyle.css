@@ -47,7 +47,7 @@ ul {
 
 article {
     display:grid;
-    grid-template-columns: 40% 40% 40%;
+    grid-template-columns: 32% 32% 32%;
     margin-left: 7.5%;
     margin-right: 15%
 }
