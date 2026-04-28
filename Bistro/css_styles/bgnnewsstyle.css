@@ -25,7 +25,7 @@ a:focus, a:hover {
 a:active {
 	color: rgb(26, 73, 85);
 	background-color: #faf2e4;
-};
+}
 
 h3 {
   font: bold 1.5em Georgia, serif;
